@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #8458B3;
+  color: #5c1515;
+}
+
+header {
+  background: #2c2236;
+  padding: 10px 0;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #b3b1a1;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: color 0.3s;
+}
+
+header ul li a:hover {
+  color: #966f5e;
+}
+
+.section {
+  padding: 40px 0;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(216, 201, 243);
+  border-bottom: 1px solid #8458B3;
+  transition: background-color 0.3s;
+}
+
+.section:hover {
+  background-color: rgb(241, 234, 253);
+}
+
+h1, h2 {
+  color: #ca5816;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #50b3a2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e5eaf5;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+/* Image Styles */
+.image-container {
+  margin-top: 20px;
+}
+
+.hoverable-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hoverable-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(121, 97, 97, 0.2);
+}
